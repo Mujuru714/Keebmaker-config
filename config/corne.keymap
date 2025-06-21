@@ -35,6 +35,26 @@
             bindings = <&kp LG(UP_ARROW)>;
             key-positions = <6 7>;
         };
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <2 3>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <4 3>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <2 1>;
+        };
+
+        screenshot {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
