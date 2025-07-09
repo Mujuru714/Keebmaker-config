@@ -77,7 +77,7 @@
 &kp TAB     &kp Q  &kp W  &kp E         &kp R  &kp T               &kp Y              &kp U      &kp I          &kp O    &kp P     &kp BSPC
 &kp LCMD    &kp A  &kp S  &kp D         &kp F  &kp G               &kp H              &kp J      &kp K          &kp L    &kp SEMI  &kp SQT
 &kp LSHIFT  &kp Z  &kp X  &kp C         &kp V  &kp B               &kp N              &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp RSHIFT
-                          &kp LEFT_ALT  &to 1  &kp LEFT_CONTROL    &kp RIGHT_CONTROL  &kp SPACE  &kp RIGHT_ALT
+                          &kp LEFT_ALT  &to 2  &kp LEFT_CONTROL    &kp RIGHT_CONTROL  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
@@ -86,7 +86,7 @@
 &kp TAB     &kp F10  &kp F7  &kp F4        &kp F1  &kp LEFT_BRACKET        &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp MINUS  &kp BSPC
 &kp LCMD    &kp F11  &kp F8  &kp F5        &kp F2  &kp RIGHT_BRACKET       &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp BACKSLASH
 &kp LSHIFT  &kp F12  &kp F9  &kp F6        &kp F3  &kp NON_US_BACKSLASH    &kp N         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RSHIFT
-                             &kp LEFT_ALT  &to 2   &kp LCTRL               &kp RCTRL     &to 0         &kp N0
+                             &kp LEFT_ALT  &to 3   &kp LCTRL               &kp RCTRL     &to 0         &kp N0
             >;
         };
 
@@ -95,7 +95,7 @@
 &kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp SPACE  &kp DELETE  &kp UP_ARROW    &kp END    &none  &kp BSPC
 &kp LCMD        &kp A  &kp S  &kp D         &kp F  &kp G        &kp SPACE  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &none  &none
 &kp LC(LSHIFT)  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp SPACE  &none       &none           &none      &none  &kp RSHIFT
-                              &kp LEFT_ALT  &to 3  &kp LCTRL    &kp RCTRL  &to 0       &kp RIGHT_ALT
+                              &kp LEFT_ALT  &to 1  &kp LCTRL    &kp RCTRL  &to 0       &kp RIGHT_ALT
             >;
         };
 
