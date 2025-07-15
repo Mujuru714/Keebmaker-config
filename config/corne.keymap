@@ -13,7 +13,7 @@
 
 &led_strip { chain-length = <27>; };
 
-&caps_word { continue-list = <UNDERSCORE MINUS SPACE>; };
+&caps_word { continue-list = <UNDERSCORE MINUS SPACE SQT BSPC DELETE COMMA DOT FSLH SEMI>; };
 
 / {
     combos {
