@@ -99,9 +99,9 @@
 
         layer_2 {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp SPACE  &kp HOME  &kp UP_ARROW    &kp END    &none  &kp DELETE
-&kp LCMD        &kp A  &kp S  &kp D         &kp F  &kp G        &kp SPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
-&kp LC(LSHIFT)  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp SPACE  &none     &kp DOWN        &none      &none  &kp RSHIFT
+&kp TAB         &none  &none  &none         &none  &none        &kp SPACE  &kp HOME  &kp UP_ARROW    &kp END    &none  &kp DELETE
+&none           &none  &none  &none         &none  &none        &kp SPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
+&kp LC(LSHIFT)  &none  &none  &none         &none  &none        &kp SPACE  &none     &kp DOWN        &none      &none  &kp RSHIFT
                               &kp LEFT_ALT  &to 1  &kp LCTRL    &kp RCTRL  &to 0     &kp RIGHT_ALT
             >;
         };
