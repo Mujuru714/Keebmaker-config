@@ -81,19 +81,19 @@
             //                    | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E         &kp R  &kp T               &kp Y              &kp U      &kp I          &kp O    &kp P     &kp BSPC
-&kp LCMD    &kp A  &kp S  &kp D         &kp F  &kp G               &kp H              &kp J      &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LSHIFT  &kp Z  &kp X  &kp C         &kp V  &kp B               &kp N              &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp RSHIFT
-                          &kp LEFT_ALT  &to 2  &kp LEFT_CONTROL    &kp RIGHT_CONTROL  &kp SPACE  &kp RIGHT_ALT
+&kp TAB     &kp Q  &kp W  &kp E         &kp R        &kp T               &kp Y              &kp U        &kp I          &kp O    &kp P     &kp BSPC
+&kp LCMD    &kp A  &kp S  &kp D         &lt 2 F      &kp G               &kp H              &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHIFT  &kp Z  &kp X  &kp C         &kp V        &lt 3 B             &kp N              &kp M        &kp COMMA      &kp DOT  &kp FSLH  &kp RSHIFT
+                          &kp LEFT_ALT  &lt 1 SPACE  &kp LEFT_CONTROL    &kp RIGHT_CONTROL  &lt 1 SPACE  &kp RIGHT_ALT
             >;
         };
 
         layer_1 {
             bindings = <
-&kp TAB     &kp F10  &kp F7  &kp F4        &kp F1  &kp LEFT_BRACKET        &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp MINUS  &kp BSPC
-&kp LCMD    &kp F11  &kp F8  &kp F5        &kp F2  &kp RIGHT_BRACKET       &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp BACKSLASH
-&kp LSHIFT  &kp F12  &kp F9  &kp F6        &kp F3  &kp NON_US_BACKSLASH    &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RSHIFT
-                             &kp LEFT_ALT  &to 3   &kp LCTRL               &kp RCTRL     &to 0         &kp N0
+&kp TAB     &kp F10  &kp F7  &kp F4        &kp F1  &kp LEFT_BRACKET        &none       &none         &none            &none         &kp MINUS     &kp BSPC
+&kp LCMD    &kp F11  &kp F8  &kp F5        &kp F2  &kp RIGHT_BRACKET       &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp N5
+&kp LSHIFT  &kp F12  &kp F9  &kp F6        &kp F3  &kp NON_US_BACKSLASH    &kp COMMA   &kp N6        &kp N7           &kp N8        &kp N9        &kp N0
+                             &kp LEFT_ALT  &none   &kp LCTRL               &kp RCTRL   &kp N0        &kp RIGHT_SHIFT
             >;
         };
 
@@ -101,8 +101,8 @@
             bindings = <
 &kp TAB         &none  &none  &none         &none  &none        &kp SPACE  &kp HOME  &kp UP_ARROW    &kp END    &none  &kp DELETE
 &none           &none  &none  &none         &none  &none        &kp SPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none  &none
-&kp LC(LSHIFT)  &none  &none  &none         &none  &none        &kp SPACE  &none     &kp DOWN        &none      &none  &kp RSHIFT
-                              &kp LEFT_ALT  &to 1  &kp LCTRL    &kp RCTRL  &to 0     &kp RIGHT_ALT
+&kp LC(LSHIFT)  &none  &none  &none         &none  &none        &kp SPACE  &none     &kp DOWN        &none      &none  &kp END
+                              &kp LEFT_ALT  &none  &kp LCTRL    &kp RCTRL  &none     &kp RIGHT_ALT
             >;
         };
 
@@ -111,7 +111,7 @@
 &bt BT_CLR_ALL  &bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3    &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(58,75,53)  &rgb_ug RGB_EFF   &none              &kp A              &kp BSPC
 &none           &none             &none              &none              &none         &none           &bl BL_TOG       &none                            &none             &none              &none              &none
 &kp LSHIFT      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &none         &bootloader     &bootloader      &none                            &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &kp RSHIFT
-                                                     &kp LCTRL          &to 3         &kp LCTRL       &kp RCTRL        &to 0                            &kp RIGHT_ALT
+                                                     &kp LCTRL          &none         &kp LCTRL       &kp RCTRL        &none                            &kp RIGHT_ALT
             >;
         };
     };
