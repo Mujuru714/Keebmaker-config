@@ -46,7 +46,7 @@
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <4 3>;
+            key-positions = <15 16>;
         };
 
         cut {
@@ -113,16 +113,16 @@
 
         layer_1 {
             bindings = <
-&kp TAB     &none  &none  &none         &none   &kp LEFT_BRACKET        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp BSPC
-&kp LCMD    &none  &none  &none         &MACF9  &kp RIGHT_BRACKET       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SQT
-&kp LSHIFT  &none  &none  &none         &none   &kp NON_US_BACKSLASH    &kp MINUS     &kp EQUAL     &kp COMMA     &kp PERIOD    &kp SLASH     &kp RIGHT_SHIFT
-                          &kp LEFT_ALT  &none   &kp LCTRL               &kp RCTRL     &kp N0        &kp RALT
+&kp TAB     &none  &none  &none             &none   &kp LEFT_BRACKET        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp BSPC
+&kp LCMD    &none  &none  &kp LS(NUMBER_2)  &MACF9  &kp RIGHT_BRACKET       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SQT
+&kp LSHIFT  &none  &none  &none             &none   &kp NON_US_BACKSLASH    &kp MINUS     &kp EQUAL     &kp COMMA     &kp PERIOD    &kp SLASH     &kp RIGHT_SHIFT
+                          &kp LEFT_ALT      &none   &kp LCTRL               &kp RCTRL     &kp N0        &kp RALT
             >;
         };
 
         layer_2 {
             bindings = <
-&kp TAB         &none  &none  &none         &kp LC(C)      &kp LC(C)    &kp SPACE  &kp HOME   &kp UP_ARROW    &kp END    &none  &kp DELETE
+&kp TAB         &none  &none  &none         &kp LC(C)      &none        &kp SPACE  &kp HOME   &kp UP_ARROW    &kp END    &none  &kp DELETE
 &none           &none  &none  &none         &kp LC(LSHFT)  &none        &kp SPACE  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &none  &kp BACKSPACE
 &kp LC(LSHIFT)  &none  &none  &none         &kp LC(V)      &none        &kp SPACE  &none      &kp DOWN        &none      &none  &kp END
                               &kp LEFT_ALT  &none          &kp LCTRL    &kp RCTRL  &kp SPACE  &kp RIGHT_ALT
