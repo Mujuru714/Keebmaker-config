@@ -91,6 +91,13 @@
             bindings = <&kp LC(A) &kp F9 &kp LA(LEFT_ARROW)>;
             label = "MACF9";
         };
+
+        pagebreaj: Pagwbreak {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(P) &kp LA(B) &kp LA(N)>;
+            label = "PAGWBREAK";
+        };
     };
 
     keymap {
@@ -113,10 +120,10 @@
 
         layer_1 {
             bindings = <
-&kp TAB     &none  &none  &none             &none   &kp LEFT_BRACKET        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp BSPC
-&kp LCMD    &none  &none  &kp LS(NUMBER_2)  &MACF9  &kp RIGHT_BRACKET       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SQT
-&kp LSHIFT  &none  &none  &none             &none   &kp NON_US_BACKSLASH    &kp MINUS     &kp EQUAL     &kp COMMA     &kp PERIOD    &kp SLASH     &kp RIGHT_SHIFT
-                          &kp LEFT_ALT      &none   &kp LCTRL               &kp RCTRL     &kp N0        &kp RALT
+&kp TAB     &none  &none  &none             &pagebreaj  &kp LEFT_BRACKET        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp BSPC
+&kp LCMD    &none  &none  &kp LS(NUMBER_2)  &MACF9      &kp RIGHT_BRACKET       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp SQT
+&kp LSHIFT  &none  &none  &none             &none       &kp NON_US_BACKSLASH    &kp MINUS     &kp EQUAL     &kp COMMA     &kp PERIOD    &kp SLASH     &kp RIGHT_SHIFT
+                          &kp LEFT_ALT      &none       &kp LCTRL               &kp RCTRL     &kp N0        &kp RALT
             >;
         };
 
